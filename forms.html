@@ -7,18 +7,26 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <label>Male</label>
-        <input type="radio" id="abc" name="gender" value="male"/> <br>
-        <label for="male">Female</label>
-        <input type="radio" id="def" name="gender" value="female"/> <br>
-        <h4>True or False</h4>
-        <label for="abc">Statement-1 is true</label>
-        <input type="radio" id="abc" name="true or false" value="statement-1 is true"/> <br>
-        <label for="abc">Statement-1 is true</label>
-        <input type="radio" id="abc" name="true or false" value="statement-1 is true"/> <br>
-        <label for="abc">Statement-1 is true</label>
-        <input type="radio" id="abc" name="true or false" value="statement-1 is true"/> <br>
+    <form action="html_01.html">
+        Enter your name <input type="text" name="name" placeholder="Enter your name" required> <br><br>
+        Enter your password <input type="password" name="password" required> <br><br>
+        Enter your Address <textarea rows="5" cols="20"> </textarea> <br>
+        Select gender <br>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female <br>
+        Select the programming languages you know: <br>
+        <input type="checkbox" value="python" name="lang">Python <br>
+        <input type="checkbox" value="c" name="lang">C <br>
+        <input type="checkbox" value="c++" name="lang">C++ <br>
+        <input type="checkbox" value="java" name="lang">Java <br>
+        <input type="submit" value="Submit form"> &nbsp;&nbsp;&nbsp;
+        <input type="reset"  value="Clear form"> &nbsp;&nbsp;&nbsp;
+        <input type="button" value="Customize" onclick="alert('Buttom clicked...')"> <br>
+        <br>
+        Enter your DOB <input type="date" name="dob">
+        Enter your age <input type="number" min="10" max="60" name="age">
+        <input type="color">
+        Enter your email id <input type="email" name="email" required>
     </form>
 </body>
 </html>
