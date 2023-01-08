@@ -1,0 +1,26 @@
+*{
+  padding: 4px; 
+  margin: 5px; 
+}
+body{
+    border-radius: 5px;
+    border-width: 4px;
+    border-style: double;
+    border-color: aqua;
+}
+div{
+    border: 4px 5px 6px 7px;
+    border-style: dotted solid dotted solid;
+    border-color: blueviolet red blue grey;
+}
+.a{
+    border-width: 2px;
+    border-color: coral;
+    border-style: dashed;
+}
+p{
+    border-width: 2px;
+    border-color:darkgoldenrod;
+    border-style:inset;
+    background-color: darkgrey;
+}
