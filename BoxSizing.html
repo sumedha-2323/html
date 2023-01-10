@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Sizing</title>
+    <style>
+        *{
+            box-sizing:content-box;
+        }
+        .a{
+            height:100px;
+            width: 150px;
+            border: 2px solid crimson;
+            background-color: aquamarine;
+            padding:30px;
+            margin:20px;
+        }
+        .b{
+            height:100px;
+            width: 150px;
+            border: 2px outset red;
+            background-color:bisque;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <h2> Box Sizing </h2>
+    <div class="a">
+        <p> Box sizing is used to define height and border either in the content box or border box</p>
+    </div>
+    <div class="b">
+        <p> Box sizing plays a crucial role in dimensions</p>
+    </div>
+</body>
+</html>

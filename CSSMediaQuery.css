@@ -1,0 +1,26 @@
+@media only screen and (min-width: 960px) {
+   *{
+       padding: 10px;
+       margin: 10px;
+    }
+   h2{
+    text-align: left;
+    }
+div{
+    border: 2px solid gold;
+    background-color: antiquewhite;
+    width: 400px;
+}
+p{
+    border: 2px solid red;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    h2{
+        text-align: right;
+    }
+    div{
+        border: 4px dotted blue;
+        width: 400px;
+    }
+}
