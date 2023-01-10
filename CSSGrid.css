@@ -1,0 +1,21 @@
+*{
+    background-color: cornsilk;
+    padding: 5px;
+    margin: 5px;
+}
+.a{
+    border: 2px solid blueviolet;
+}
+.b{
+    border: 2px solid blueviolet;
+}
+p{
+    border: 2px solid forestgreen;
+    color:coral;
+}
+div{
+    border: 2px solid black;
+}
+h2{
+    color:darkgreen;
+}
